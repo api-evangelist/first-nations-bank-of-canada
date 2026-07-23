@@ -1,0 +1,56 @@
+aid: first-nations-bank-of-canada
+url: https://raw.githubusercontent.com/api-evangelist/first-nations-bank-of-canada/refs/heads/main/apis.yml
+name: First Nations Bank of Canada
+kind: company
+description: >-
+  First Nations Bank of Canada (FNBC) is a Schedule I federally regulated
+  chartered bank under the Bank Act, chartered on 19 November 1996 and
+  headquartered in Saskatoon, Saskatchewan. It is the first Canadian chartered
+  bank to be independently controlled by Indigenous shareholders — roughly 88%
+  Indigenous owned and controlled by 78 Indigenous shareholder groups from
+  Nunavut, Northwest Territories, Yukon, Saskatchewan, Manitoba, Alberta and
+  Quebec — and focuses on serving the Indigenous marketplace, with over 90% of
+  its loans going directly to Indigenous communities, many of its branches on
+  reserve, and CDIC-insured deposits. On the open-finance and API front, FNBC
+  runs no first-party developer portal and publishes no public API: probes of
+  developer.fnbc.ca, api.fnbc.ca and developers.fnbc.ca all fail to resolve, and
+  the fnbc.ca site exposes only retail online-banking and a mobile app, not a
+  documented API surface. Canada's federal Consumer-Driven Banking framework
+  (legislated via Budget 2024 / Fall Economic Statement 2024, with FCAC as
+  overseer) is not yet operational, so third-party access to FNBC account data
+  today is voluntary and effectively aggregator-mediated (Flinks, Plaid and
+  similar), not a first-party open-banking API.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+tags:
+- Financial Services
+- Banking
+- Canada
+- Schedule I Bank
+- Indigenous
+- Consumer-Driven Banking
+- Data Aggregation
+- Interac
+created: '2026-07-23'
+modified: '2026-07-23'
+specificationVersion: '0.19'
+apis: []
+common:
+- type: Website
+  url: https://www.fnbc.ca/
+- type: OnlineBanking
+  url: https://online.fnbc.ca/
+- type: LinkedIn
+  url: https://ca.linkedin.com/company/first-nations-bank-of-canada
+- type: Blog
+  url: https://www.fnbc.ca/about/media-centre/news
+- type: TermsOfService
+  url: https://www.fnbc.ca/about/regulatory/legal
+- type: PrivacyPolicy
+  url: https://www.fnbc.ca/about/regulatory/privacy-code
+- type: Support
+  url: https://www.fnbc.ca/contact-us
+- type: Regulatory
+  url: https://www.fnbc.ca/about/regulatory/regulatory-and-CDIC
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
