@@ -35,6 +35,10 @@ modified: '2026-07-23'
 specificationVersion: '0.19'
 apis: []
 common:
+- type: DomainSecurity
+  url: security/first-nations-bank-of-canada-domain-security.yml
+- type: WellKnown
+  url: well-known/first-nations-bank-of-canada-well-known.yml
 - type: Website
   url: https://www.fnbc.ca/
 - type: OnlineBanking

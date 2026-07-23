@@ -1,0 +1,33 @@
+generated: '2026-07-23'
+method: probed
+source: live HTTP probes of /.well-known/* on FNBC public hosts
+note: >-
+  No .well-known resources are published. All probes returned 404 on the
+  public/retail hosts; the API/developer subdomains do not resolve. Empty is
+  the expected result for a Schedule I retail bank with no first-party public
+  API surface.
+hosts:
+- host: www.fnbc.ca
+  probes:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: online.fnbc.ca
+  probes:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
