@@ -20,6 +20,17 @@ description: >-
   overseer) is not yet operational, so third-party access to FNBC account data
   today is voluntary and effectively aggregator-mediated (Flinks, Plaid and
   similar), not a first-party open-banking API.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Financial-Services
