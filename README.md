@@ -1,4 +1,4 @@
-# First Nations Bank of Canada (first-nations-bank-of-canada)
+# First Nations Bank of Canada
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,50 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-First Nations Bank of Canada (FNBC) is a Schedule I federally regulated chartered bank under the Bank Act, chartered on 19 November 1996 and headquartered in Saskatoon, Saskatchewan. It is the first Canadian chartered bank to be independently controlled by Indigenous shareholders — roughly 88% Indigenous owned by 78 Indigenous shareholder groups across Nunavut, Northwest Territories, Yukon, Saskatchewan, Manitoba, Alberta and Quebec — and focuses on serving the Indigenous marketplace, with over 90% of its loans going directly to Indigenous communities and CDIC-insured deposits.
+First Nations Bank of Canada (FNBC) is a Schedule I federally regulated chartered bank under the Bank Act, chartered on 19 November 1996 and headquartered in Saskatoon, Saskatchewan. It is the first Canadian chartered bank to be independently controlled by Indigenous shareholders — roughly 88% Indigenous owned and controlled by 78 Indigenous shareholder groups from Nunavut, Northwest Territories, Yukon, Saskatchewan, Manitoba, Alberta and Quebec — and focuses on serving the Indigenous marketplace, with over 90% of its loans going directly to Indigenous communities, many of its branches on reserve, and CDIC-insured deposits. On the open-finance and API front, FNBC runs no first-party developer portal and publishes no public API: probes of developer.fnbc.ca, api.fnbc.ca and developers.fnbc.ca all fail to resolve, and the fnbc.ca site exposes only retail online-banking and a mobile app, not a documented API surface. Canada's federal Consumer-Driven Banking framework (legislated via Budget 2024 / Fall Economic Statement 2024, with FCAC as overseer) is not yet operational, so third-party access to FNBC account data today is voluntary and effectively aggregator-mediated (Flinks, Plaid and similar), not a first-party open-banking API.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/first-nations-bank-of-canada/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/first-nations-bank-of-canada/refs/heads/main/apis.yml)
+**Areas:** Financial Services · Banking · Canada · Schedule I Bank · Indigenous · Consumer-Driven Banking · Interac
 
-## Open-Finance & API Posture
+## First Nations Bank of Canada on APIs.io
 
-FNBC runs **no first-party developer portal** and publishes **no public API**. Probes of `developer.fnbc.ca`, `api.fnbc.ca` and `developers.fnbc.ca` all fail to resolve (connection failure). The public site at `fnbc.ca` exposes only retail online banking (`online.fnbc.ca`) and a mobile app (iOS/Android) — no documented API reference, OpenAPI/Swagger, or open-banking developer resources.
+Everything profiled for First Nations Bank of Canada is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/first-nations-bank-of-canada/](https://apis.io/providers/first-nations-bank-of-canada/)** — or go straight to one of the APIs or properties below.
 
-Canada's federal **Consumer-Driven Banking (CDB)** framework — legislated via Budget 2024 and the Fall Economic Statement 2024, with the Financial Consumer Agency of Canada (FCAC) as overseer — is **not yet operational**. Accordingly, third-party access to FNBC customer account data today is voluntary and effectively **aggregator-mediated** (Flinks, Plaid and similar screen-scraping / data-connectivity providers) rather than delivered through a first-party open-banking API. FNBC publishes no stated FDX participation and no downloadable API specification.
+### Published properties
 
-This record is therefore **identity-only** (a bootstrap stub): it captures the institution and its verified public web properties, with an honest "no public API — aggregator-only" posture. No hosts, specifications, or endpoints have been invented.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Tags
+#### Security (1)
 
-- Financial Services
-- Banking
-- Canada
-- Schedule I Bank
-- Indigenous
-- Consumer-Driven Banking
-- Data Aggregation
-- Interac
+Authentication, trust centre, and vulnerability disclosure.
 
-## Timestamps
+- [First Nations Bank Of Canada Domain Security](https://apis.io/security/first-nations-bank-of-canada/first-nations-bank-of-canada-domain-security/)
 
-- **Created:** 2026-07-23
-- **Modified:** 2026-07-23
+## Where to find this API
 
-## APIs
-
-No public, documented API is exposed by First Nations Bank of Canada as of the review date.
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.fnbc.ca/)
-- [Online Banking](https://online.fnbc.ca/)
-- [LinkedIn](https://ca.linkedin.com/company/first-nations-bank-of-canada)
-- [News / Media Centre](https://www.fnbc.ca/about/media-centre/news)
-- [Terms / Legal](https://www.fnbc.ca/about/regulatory/legal)
-- [Privacy Code](https://www.fnbc.ca/about/regulatory/privacy-code)
-- [Support / Contact](https://www.fnbc.ca/contact-us)
-- [Regulatory & CDIC](https://www.fnbc.ca/about/regulatory/regulatory-and-CDIC)
+- [Support](https://www.fnbc.ca/contact-us)
+- [Blog](https://www.fnbc.ca/about/media-centre/news)
+- [Terms of service](https://www.fnbc.ca/about/regulatory/legal)
+- [Privacy policy](https://www.fnbc.ca/about/regulatory/privacy-code)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 9.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.0** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/first-nations-bank-of-canada/](https://apis.io/providers/first-nations-bank-of-canada/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for First Nations Bank of Canada: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/first-nations-bank-of-canada/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
